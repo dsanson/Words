@@ -1,6 +1,6 @@
 # William Whitaker's Words: a Latin-English Dictionary
 
-This repository is a rehosting of the source files for version 1.97FC of Words. The original can be found [here][]). It is open source. Quoting from [wordsdoc.htm][]:
+This repository is a rehosting of the source files for version 1.97FC of Words. The original can be found [here][]. It is open source. Quoting from [wordsdoc.htm][]:
 
 > This is a free program, which means it is proper to copy it and pass it on to your friends. Consider it a developmental item for which there is no charge. However, just for form, it is Copyrighted (c). Permission is hereby freely given for any and all use of program and data. You can sell it as your own, but at least tell me.
 
