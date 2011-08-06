@@ -10,9 +10,11 @@ and later in the same document:
 >
 > All parts of the WORDS system, source code and data files, are made freely available to anyone who wishes to use them, for whatever purpose.
 
-William Whitaker passed away in late 2010. Here is his [obituary][]. I had no connection to him. I'm just a long time user of this great piece of software, who doesn't want to see it disappear now that he is no longer around to maintain it. So I am putting these source files up on Github in part to ensure that they will still be available if and when his website goes down. I suppose I also hope that someone might be interested in taking up the project and continuing to maintain it, and figure that putting the source on Github is one way to try to encourage that. 
+William Whitaker passed away in late 2010. Here is his [obituary][]. I had no connection to him. I'm just a long time user of this great piece of software, who doesn't want to see it disappear now that he is no longer around to maintain it. So I am putting these source files up on Github in part to ensure that they will still be available if and when his website goes down. I suppose I also hope that someone might be interested in taking up the project and continuing to maintain it, and figure that putting the source on Github is one way to try to encourage that.
 
-Words is written in [Ada][]. I was able to compile a [universal binary for OS X][] by downloading and installing [GNAT GPL Edition 2011][]. Instructions for building words (and a lot of detailed information about what it does) can be found in [wordsdoc.htm]. That file is also include with the source posted here. First, you'll want to run:
+In addition to the source, I've included three [binary builds of words](https://github.com/dsanson/Words/tree/master/binaries): copies of the DOS and Windows binaries provided by Whitaker on his own site, and a universal binary for OS X that I built myself, that works with Lion.
+
+Words is written in [Ada][]. I was able to compile a the source on a Mac by downloading and installing [GNAT GPL Edition 2011][]. Instructions for building words (and a lot of detailed information about what it does) can be found in [wordsdoc.htm]. That file is also include with the source posted here. First, you'll want to run:
 
 	gnatmake -O3 words
 	gnatmake makedict
