@@ -20,7 +20,7 @@ Words is written in [Ada][]. I was able to compile a [universal binary for OS X]
 	gnatmake ewdsefil
 	gnatmake makeinfl
 
-This produces four executables: words, makedict, makestem, ewdsefil, and makeinfl. You then need to run
+This produces four executables: `words`, `makedict`, `makestem`, `ewdsefil`, and `makeinfl`. You then need to run
 
 	makedict DICTLINE.GEN
 	makestem STEMLIST.GEN
